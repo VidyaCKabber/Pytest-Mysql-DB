@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="vidya-H110M-S2" name="pytest" skipped="1" tests="6" time="0.281" timestamp="2020-02-25T16:52:49.942284"><testcase classname="test_testcases.TestCases" file="test_testcases.py" line="55" name="test_create_table_if_not_exists" time="0.013"><system-out>--------------------------setup module---------------------------------
+server version 5.5.5-10.4.11-MariaDB
+You&apos;re connected to database (&apos;apitest&apos;,)
+</system-out></testcase><testcase classname="test_testcases.TestCases" file="test_testcases.py" line="69" name="test_insert_into_table[INSERT INTO product_details (\n                    id,product_name,cost)\n                    VALUES\n                    (&apos;&apos;,&apos;Redmi Note 8 pro&apos;,&apos;Rs.15,999&apos;)]" time="0.165"><system-out>records length from cursor =&gt;  36
+connection closed
+--------------------------teardown module-----------------------
+</system-out></testcase><testcase classname="test_testcases.TestCases" file="test_testcases.py" line="69" name="test_insert_into_table[INSERT INTO product_details (\n                    id,product_name,cost)\n                    VALUES\n                    (&apos;&apos;,&apos;Infinx hot 8&apos;,&apos;Rs.15,999&apos;)]" time="0.014"><system-out>records length from cursor =&gt;  36
+Failed to insert record into Laptop table 2013: Lost connection to MySQL server during query
+--------------------------teardown module-----------------------
+</system-out></testcase><testcase classname="test_testcases.TestCases" file="test_testcases.py" line="83" name="test_list_table_data" time="0.005"><system-out>Error reading data from MySQL table 2055: Lost connection to MySQL server at &apos;192.168.0.9:3306&apos;, system error: 32 Broken pipe
+</system-out></testcase><testcase classname="test_testcases.TestCases" file="test_testcases.py" line="99" name="test_update_table" time="0.002"><system-out>Before updating
+Error while updating table from MySQL  2055: Lost connection to MySQL server at &apos;192.168.0.9:3306&apos;, system error: 32 Broken pipe
+</system-out></testcase><testcase classname="test_testcases.TestCases" file="test_testcases.py" line="127" name="test_delete_table" time="0.003"><skipped message="Don&apos;t want to delete any data" type="pytest.skip">test_testcases.py:128: Don&apos;t want to delete any data</skipped><system-out>--------------------------teardown module-----------------------
+</system-out></testcase></testsuite></testsuites>
